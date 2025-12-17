@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated training data
+tesstrain/
+tesstrain/data/
+tesstrain/data/**
+tesstrain/bin/
+
+# Output training directories
+train_data/
+*/train/
+*/test/
+
+# Language data
+langdata/
+numbers
+punc
+wordlist
+
+# Tesseract generated files
+*.box
+*.lstmf
+*.traineddata
+*.log
+*.checkpoint
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+
+# Downloaded models
+eng.traineddata
+
+# Build artifacts
+Makefile
+autom4te.cache/
+config.log
+config.status
+
+# Evaluation outputs
+list.txt
+
+#input dir
+input_data/
