@@ -68,7 +68,7 @@ Edit the USER CONFIGURATION section in the script.
 
 Make executable:
 ```
-chmod +x train.sh
+chmod +x tesseract_training.sh
 ```
 
 Run:
@@ -93,7 +93,7 @@ tesseract image.png stdout -l <MODEL_NAME> --psm 7
 With character whitelist:
 ```
 tesseract image.png stdout -l <MODEL_NAME> --psm 7 \
-  -c tessedit_char_whitelist="0123456789.B"
+  -c tessedit_char_whitelist="$CHAR_SET"
 ```
 
 ---

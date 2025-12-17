@@ -10,8 +10,8 @@ echo "Setting up Tesseract training environment"
 # USER CONFIGURATION
 ########################################
 
-TRAIN_PERCENT=100			# Percentage of data used for training
-MAX_ITERATIONS=1000			# Total training iterations
+TRAIN_PERCENT=90			# Percentage of data used for training
+MAX_ITERATIONS=10000		# Total training iterations
 LEARNING_RATE=0.001			# Learning rate
 
 # Input/Output directories
